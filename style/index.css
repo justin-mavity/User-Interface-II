@@ -1,1 +1,15 @@
-/* Add CSS styling here */
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  max-width:100%; /*this is saying you can never be bigger than your parent*/
+/*   border:1px solid grey; */
+}
+html{
+  font-size:62.5%;
+}
+body{
+  line-height:2;
+  font-size:1.5rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
