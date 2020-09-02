@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 html {
@@ -13,41 +13,52 @@ html {
 body {
   font-size: 1.8rem;
   line-height: 1.5;
+  background-color: black;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   letter-spacing: 3px;
+  color: white;
 }
 p {
   font-size: 3rem;
+  color: white;
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 10rem;
   margin: 0 3%;
 }
 
 h2 {
-  font-size: 6.5rem;
+  font-size: 8.5rem;
   font-weight: normal;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 6.5rem;
+}
+
+h4 {
+  font-size: 5.5rem;
+  color: darkgreen;
 }
 
 header,
 footer {
   width: 100%;
-  background-color: lightblue;
+  background-color: lightskyblue;
   padding: 2% 0;
 }
 
 a {
   text-decoration: none;
   letter-spacing: 3px;
+  padding: 0 3%;
+  color: black;
 }
 
 header nav {
@@ -55,14 +66,12 @@ header nav {
   font-size: 3.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .links {
-  width: 40%;
-  margin: 0 5%;
+  width: 33%;
+  margin: 0 10%;
   display: flex;
-  justify-content: center;
 }
 
 .links a:hover {
@@ -75,30 +84,76 @@ header nav {
   margin: 2% 0;
   display: flex;
   align-items: center;
+  background-color: royalblue;
+  color: white;
 }
 
 .main-image {
-  width: 100%;
+  width: 90%;
   background-image: url("https://picsum.photos/200/300");
   background-size: cover;
-  height: 50vh;
+  height: 80vh;
 }
 
 .texts-box {
-  margin: 0 3%;
+  width: 100%;
+  margin: 0 10%;
   display: flex;
   flex-direction: column;
 }
 
-button {
+#about button {
   width: 40%;
   font-size: 4rem;
-  margin: 2% 0;
+  margin: 3% 0;
   padding: 2% 3%;
+  letter-spacing: 2.5px;
+}
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 #gallery {
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+}
+
+.box {
+  width: 25%;
+  margin: 3% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box img {
+  width: 80%;
+  margin: 10%;
+}
+
+.text {
+  text-align: center;
+}
+
+#contact {
+  color: black;
+  width: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info button {
+  width: 20%;
+  font-size: 2.5rem;
+  padding: 1%;
+  letter-spacing: 1.5px;
+  font-size: 3rem;
+  margin-top: 2%;
 }
