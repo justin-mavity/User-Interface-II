@@ -104,7 +104,7 @@ header nav {
 
 #about button {
   width: 40%;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 3% 0;
   padding: 2% 3%;
   letter-spacing: 2.5px;
@@ -156,4 +156,65 @@ button:hover {
   letter-spacing: 1.5px;
   font-size: 3rem;
   margin-top: 2%;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 7.5rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 5.5rem;
+    text-align: center;
+    margin: 2% 0;
+  }
+  h3{
+    font-size:4.5rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  .links {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links a {
+    font-size: 3rem;
+    padding: 2% 5%;
+  }
+  #about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-box {
+    width:100%
+    align-items: center;
+  }
+  .main-image {
+    height: 60vh;
+  }
+  #about button {
+    margin: 2% 30%;
+  }
+  .texts-box p {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .box{
+    width:50%;
+  }
+  .box img{
+    width:90%;
+    margin:0 auto;
+  }
+  .contact-info button{
+    width:30%;
+  }
+  footer{
+    padding-bottom: 7%;
+  }
 }
