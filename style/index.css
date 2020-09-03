@@ -168,8 +168,8 @@ button:hover {
     text-align: center;
     margin: 2% 0;
   }
-  h3{
-    font-size:4.5rem;
+  h3 {
+    font-size: 4.5rem;
   }
   p {
     font-size: 2.5rem;
@@ -190,9 +190,8 @@ button:hover {
     justify-content: center;
     align-items: center;
   }
-  .text-box {
-    width:100%
-    align-items: center;
+  .texts-box {
+    width: 100%;
   }
   .main-image {
     height: 60vh;
@@ -200,21 +199,54 @@ button:hover {
   #about button {
     margin: 2% 30%;
   }
+  button:hover {
+    background-color: black;
+    color: white;
+  }
   .texts-box p {
     width: 90%;
     margin: 0 5%;
   }
-  .box{
-    width:50%;
+  .box {
+    width: 50%;
   }
-  .box img{
-    width:90%;
-    margin:0 auto;
+  .box img {
+    width: 90%;
+    margin: 0 auto;
   }
-  .contact-info button{
-    width:30%;
+  .contact-info button {
+    width: 30%;
   }
-  footer{
+  footer {
     padding-bottom: 7%;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 5.5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+  }
+  .main-image {
+    height: 40vh;
+    margin-top: 1%;
+  }
+  #about button {
+    font-size: 2.5rem;
+  }
+  .texts-box button:hover {
+    background-color: black;
+    color: white;
+  }
+  .contact-info button {
+    font-size: 2rem;
   }
 }
